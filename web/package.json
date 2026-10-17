@@ -1,0 +1,12 @@
+{
+  "name": "secureship-test-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test fixture with a vulnerable npm dependency for SecureShip",
+  "scripts": {
+    "test": "node -e \"require('lodash'); console.log('ok')\""
+  },
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}
